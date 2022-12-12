@@ -333,11 +333,13 @@ img {
 .about__snow-1{
   top: 12rem;
   left: 1.5rem;
+  animation: var(--animate-snow-1);
 }
 
 .about__snow-2{
   right: -.75rem;
   bottom: .5rem;
+  animation: var(--animate-snow-2);
 }
 
 /*=============== BUTTON ===============*/
