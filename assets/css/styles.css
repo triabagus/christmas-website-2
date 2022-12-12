@@ -235,7 +235,9 @@ img {
 }
 
 /* Change background header */
-
+.bg-header{
+  background: var(--body-color);
+}
 
 /* Active link */
 
