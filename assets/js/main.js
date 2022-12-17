@@ -82,3 +82,14 @@ gsap.from('.home__trineo', 1.2, {opacity: 0, y: -200, delay: .8})
 gsap.from('.home__title', 1.2, {opacity: 0, y: -60, delay: 1})
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400
+})
+
+sr.reveal('.about__data, .celebrate__img', {origin: 'right'})
+sr.reveal('.about__img, .celebrate__data ', {origin: 'left'})
+sr.reveal('.send__card', {interval: 100})
+sr.reveal('.footer')
